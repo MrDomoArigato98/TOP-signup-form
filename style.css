@@ -112,14 +112,46 @@ body{
     padding-right: 10vw;
     font-weight: bold;
     font-size: larger;
-    padding-bottom: 30px;
+    padding-bottom: 3vh;
 }
 
-.form{
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: ce;
+    padding-left: 5vw;
     height: 30%;
     width: 100%;
+    box-shadow: 2px 2px 10px gray;
+    padding-right: 5vw;
 }
 
-.submit{
+form{
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    justify-content: space-between;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+}
+.submit-container{
     height: 35%;
+}
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
